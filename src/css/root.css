@@ -4,9 +4,9 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #0070c9;
-    --primaryShade: #3399ff;
-    --primaryDark: #004b8a;
+    --primary: #c8102e;        /* Bold Red (main accent color) */
+--primaryShade: #e23b4a;   /* Lighter red for hover or highlights */
+--primaryDark: #8b001a;    /* Deep dark red for contrast or shadows */
     --bodyTextColor: #4E4B66;
     --bodyTextColorWhite: #FAFBFC;
     --headerColor: #1a1a1a;
