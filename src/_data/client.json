@@ -1,15 +1,15 @@
 {
   "name": "Trinity Commercial LLC",
   "email": "info@trinitycommercial.com",
-  "phone": "To Be Added",
-  "phoneFormatted": "To Be Added",
+  "phone": "+12485509036",
+  "phoneFormatted": "(248) 550-9036",
   "address": {
-    "lineOne": "First Address Line",
-    "lineTwo": "Second Address Line, If Needed",
-    "city": "To Be Added",
+    "lineOne": "35510 Mound Road",
+    "lineTwo": "",
+    "city": "Sterling Heights",
     "county": "MI",
-    "postcode": "To Be Added",
-    "mapLink": "https://goo.gl/maps/"
+    "postcode": "",
+    "mapLink": "https://maps.google.com/?q=35510+Mound+Road,+Sterling+Heights,+MI"
   },
   "domain": "www.trinitycommercial.com"
 }

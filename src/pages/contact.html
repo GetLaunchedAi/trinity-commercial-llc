@@ -78,7 +78,7 @@ eleventyNavigation:
           </picture>
           <div class="cs-flex-group">
             <span class="cs-header">Phone</span>
-            <a href="tel:0000000000" class="cs-link">(000) 000-0000</a>
+            <a href="tel:{{ client.phone }}" class="cs-link">{{ client.phoneFormatted }}</a>
           </div>
         </li>
         <li class="cs-li">
@@ -87,7 +87,7 @@ eleventyNavigation:
           </picture>
           <div class="cs-flex-group">
             <span class="cs-header">Location</span>
-            <a href="#" class="cs-link">Serving Michigan and surrounding areas</a>
+            <a href="{{ client.address.mapLink }}" class="cs-link">{{ client.address.lineOne }}, {{ client.address.city }}, {{ client.address.county }}</a>
           </div>
         </li>
       </ul>

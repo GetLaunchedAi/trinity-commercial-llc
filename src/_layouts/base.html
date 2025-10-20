@@ -65,6 +65,24 @@
         {{ tagTitle }} | {{ client.name }}
         {% endif %}
     </title>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "{{ client.name }}",
+      "url": "https://{{ client.domain }}",
+      "telephone": "{{ client.phone }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ client.address.lineOne }}",
+        "addressLocality": "{{ client.address.city }}",
+        "addressRegion": "{{ client.address.county }}",
+        "postalCode": "{{ client.address.postcode }}",
+        "addressCountry": "US"
+      }
+    }
+    </script>
 </head>
 
 <body>

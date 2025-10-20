@@ -43,7 +43,10 @@
                         <a href="/contact">Family-Owned for 10+ Years</a>
                     </li>
                     <li>
-                        <a href="tel:TO-BE-ADDED">T: (XXX) XXX-XXXX</a>
+                        <a href="tel:{{ client.phone }}">T: {{ client.phoneFormatted }}</a>
+                    </li>
+                    <li>
+                        <a href="{{ client.address.mapLink }}">{{ client.address.lineOne }}, {{ client.address.city }}, {{ client.address.county }}</a>
                     </li>
                     <li>
                         <a href="mailto:info@trinitycommercial.com">Click to Email</a>

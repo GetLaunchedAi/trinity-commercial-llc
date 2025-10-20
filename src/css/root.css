@@ -904,6 +904,9 @@ body.dark-mode #navigation #navbar-menu .dropdown.open .dropdown-menu {
     margin-bottom: 0;
     
   }
+  #footer .right-section .lists ul:nth-of-type(3) li {
+    justify-content: flex-start;
+  }
   #footer .right-section .lists ul li a {
     position: relative;
   }
